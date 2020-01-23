@@ -63,4 +63,72 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+nav{
+	text-align:center;
+	width: 80%;
+}
+nav ul li{
+	color:grey;
+	padding: 25px;
+	display:inline;
+}
+
+
+header{
+	display:block;
+	border:1px solid red;
+	margin:2%;
+}
+.headerleft {
+	display:inline-block;
+	border: 1px solid darkblue;
+	height:381px;
+	width: 385px;
+	vertical-align: middle;
+	margin-left:25%;
+}
+.headerlefttext h1{
+	font-size:60px;
+	font:Impact, fantasy;
+	font-style: italic;
+	text-align: center;
+}
+.headerleft .smallwhitebox{
+	text-align: center;
+	border: 1px dotted grey;
+	width:100px;
+	margin:auto ;
+	margin-bottom: 25px;
+
+}
+.headerright{
+	display:inline-block;
+	border: 1px solid black;
+	vertical-align: middle;
+	
+}
+.aroundImg{
+	display:block;
+	border:1px solid black;
+}
+.left-stuff {
+	display:inline-block;
+	border: 1px solid green;
+	width:40%;
+}
+.aroundImg .right-stuff {
+	display:inline-block;
+	border: 1px solid green;
+	width:40%;
+}
+.middle-img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+hr{
+	border:1px solid black
+}
