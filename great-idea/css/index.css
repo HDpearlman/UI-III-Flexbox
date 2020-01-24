@@ -65,15 +65,26 @@ h1, h2, h3, h4, h5 {
 
 
 
+/*nav code*/
+
 nav{
-	text-align:center;
-	width: 80%;
+	margin-left:20%;
+	margin-bottom:5%;
 }
-nav ul li{
+nav a{
+	text-align:center;
+	display:inline;
+	font-weight:bold;
+	color:grey;
+	text-decoration:none;
+	padding: 2%;
+	vertical-align: middle;
+}
+/* nav ul li{
 	color:grey;
 	padding: 25px;
 	display:inline;
-}
+} */
 
 
 header{
@@ -83,13 +94,14 @@ header{
 }
 .headerleft {
 	display:inline-block;
-	border: 1px solid darkblue;
+	/* border: 1px solid darkblue; */
 	height:381px;
 	width: 385px;
 	vertical-align: middle;
-	margin-left:25%;
+	margin-left:20%;
 }
 .headerlefttext h1{
+	margin-top:10%;
 	font-size:60px;
 	font:Impact, fantasy;
 	font-style: italic;
@@ -100,41 +112,77 @@ header{
 	border: 1px dotted grey;
 	width:100px;
 	margin:auto ;
-	margin-bottom: 25px;
 
+}
+.headerleft .smallwhitebox a{
+	text-decoration:none;
+	color:black;
 }
 .headerright{
 	display:inline-block;
-	border: 1px solid black;
+
 	vertical-align: middle;
 	
+	
+}
+content hr{
+	width: 60%;
 }
 .aroundImg{
-	display:block;
-	border:1px solid black;
+	display:inline-block;
+	margin-left:20%;
+	margin-right:20%;
+	
 }
 .left-stuff {
 	display:inline-block;
-	border: 1px solid green;
-	width:40%;
+	
+	width:49%;
+	
 }
 .aroundImg .right-stuff {
 	display:inline-block;
-	border: 1px solid green;
-	width:40%;
+	
+	width:49%;
+	
 }
 .middle-img{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+	display:inline-block;
+	margin-left:20%;
+	margin-right:20%;
 }
 
 hr{
-	border:1px solid black
+	border:1px solid black;
+	width: 60%;
+}
+.aroundImgbot{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+ .left, .right, .middle{
+	display:inline-block;
+	width: 32%;
+}
+
+address {
+	text-align:left;
+	margin-left:20%;
+}
+
+.Copyright{
+	text-align:center;
+	margin-top:5%;
+	font-weight:bold;
+}
+.phonenumber {
+	padding:4% 0;
 }
 
 /* Services page CSS */
-
+.services hr{
+	width: 90%;
+}
 nav {
 	
 	display:flex;
@@ -152,6 +200,10 @@ header {
 	margin-left:5%;
 }
 
+header h1{
+	font-size:28px;
+	margin-top:25px;
+}
 nav a{
 	text-decoration:none;
 	color:gray;
@@ -162,6 +214,7 @@ content{
 	display:flex;
 	width: 90%;
 	margin-left:5%;
+	flex-direction:column;
 	/* border: 1px solid green; */
 }
 .services-header-img{
@@ -208,18 +261,23 @@ content{
 .serviceFacts{
 	display:flex;
 	flex-wrap:wrap;
-	width: 90%;
-	margin-left:5%;
+	width: 100%;
+	margin-top: 3%;
+	justify-content:space-between;
+	
+	
 }
 .serviceFacts div{
-	width: 50%;
+	width: 45%;
+
 }
 
 .serviceFacts div ul li{
 	list-style-type: square;
 	justify-content: flex-start;
-	padding:5%;
-	margin-left:10%;
+	/* padding:5%; */
+	margin-left:3%;
+	margin-top:2%;
 }
 
 .copyright{
@@ -232,3 +290,20 @@ content{
 	color:grey;
 
 }
+
+
+}
+.services{
+	width:90%;
+	margin-left:5%;
+}
+
+/* content hr{
+	width: 100%;
+	margin:0;
+} */
+.serviceFacts img{
+		
+		width:100%;
+		
+	}
